@@ -1,0 +1,13 @@
+A simple set of PHP scripts we use to provide beta releases of our iOS application.
+
+If you want to use these scripts you would want to do the following:
+
+= Upload your application binaries =
+Application binaries should be uploaded to the "builds" directory in order
+to work out of the box
+
+= Set required settings =
+You should use the file in inc/OyatelDistribution.class.php to
+define abstracted methods from inc/OyatelDistributionAbstract.class.php,
+and possibly override other methods as well if you want to make some
+tweaks to the setup and directories.
