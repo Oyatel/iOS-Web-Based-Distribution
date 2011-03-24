@@ -36,6 +36,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
+					<key>needs-shine</key>
 					<?php 
 					echo $bundleInfo->getDisplayImage()->getNeedsShine() ? '<true/>' : '<false/>';
 					?>
